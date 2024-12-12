@@ -1,4 +1,4 @@
-import { div } from "framer-motion/client";
+
 import { twMerge } from "tailwind-merge";
 
 export default function Pointer(props: {name: string; color?: 'red' | 'blue';}) {

@@ -1,5 +1,4 @@
 "use client";
-import { Fascinate } from "next/font/google";
 import Tag from "@/components/tag";
 import { twMerge } from "tailwind-merge";
 import { useState } from "react";

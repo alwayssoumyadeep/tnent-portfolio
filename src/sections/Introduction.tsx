@@ -6,20 +6,20 @@ import { twMerge } from "tailwind-merge";
 
 export default function Introduction() {
     const text = `You're racing to create exceptional work, but traditional design tools slow you down with unnecessary complexity and steep learning curves.`;
-    const words = text.split(' ');
+    const words = text.split(" ");
     const scrollTarget = useRef<HTMLDivElement>(null);
-    
-    const { scrollYProgress } = useScroll({ 
-        target: scrollTarget, 
-        offset: ['start end', 'end end']
+
+    const { scrollYProgress } = useScroll({
+        target: scrollTarget,
+        offset: ["start end", "end end"],
     });
 
     const [currentWord, setCurrentWord] = useState(0);
-    
+
     const wordIndex = useTransform(scrollYProgress, [0, 1], [0, words.length]);
 
     useEffect(() => {
-        const unsubscribe = wordIndex.on('change', (latest) => {
+        const unsubscribe = wordIndex.on("change", (latest) => {
             setCurrentWord(Math.floor(latest));
         });
 
@@ -37,17 +37,19 @@ export default function Introduction() {
                         <span>Your creative process deserves better.</span>{" "}
                         <span className="text-white/15">
                             {words.map((word, index) => (
-                                <span 
-                                    key={index} 
+                                <span
+                                    key={index}
                                     className={twMerge(
-                                        index < currentWord ? 'text-white' : ''
+                                        index < currentWord ? "text-white" : ""
                                     )}
                                 >
                                     {word}{" "}
                                 </span>
                             ))}
                         </span>
-                        <span className="text-lime-400 block">That&apos;s why we built Layers.</span>
+                        <span className="text-lime-400 block">
+                            That&apos;s why we built Layers.
+                        </span>
                     </div>
                 </div>
                 <div className="h-[150vh]" ref={scrollTarget}></div>

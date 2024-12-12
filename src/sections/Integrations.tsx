@@ -1,12 +1,12 @@
 import Tag from "@/components/tag";
-import { div } from "framer-motion/client";
+// import { div } from "framer-motion/client";
 import figmaIcon from '@/assets/images/figma-logo.svg';
 import notionIcon from '@/assets/images/notion-logo.svg';
 import slackIcon from '@/assets/images/slack-logo.svg';
 import relumeIcon from '@/assets/images/relume-logo.svg';
 import framerIcon from '@/assets/images/framer-logo.svg';
 import githubIcon from '@/assets/images/github-logo.svg';
-import Image from "next/image";
+// import Image from "next/image";
 import IntegrationColumn from "@/components/Integrationcloumns";
 
 const integrations = [
