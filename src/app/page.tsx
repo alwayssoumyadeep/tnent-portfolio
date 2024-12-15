@@ -14,7 +14,7 @@ export default function page() {
     <>
       <Navbar/>
       <Hero/>
-      <LogoTicker/>
+      {/* <LogoTicker/> */}
       <Introduction/>
       <Features/>
       <Integrations/>

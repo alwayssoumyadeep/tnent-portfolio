@@ -31,7 +31,7 @@ export default function Introduction() {
             <div className="container">
                 <div className="sticky top-20">
                     <div className="flex justify-center">
-                        <Tag>Introducing Layers</Tag>
+                        <Tag>Introducing Tnent Store</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
                         <span>Your creative process deserves better.</span>{" "}
@@ -48,7 +48,7 @@ export default function Introduction() {
                             ))}
                         </span>
                         <span className="text-lime-400 block">
-                            That&apos;s why we built Layers.
+                            That&apos;s why we built Tnent Store.
                         </span>
                     </div>
                 </div>

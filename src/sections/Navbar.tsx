@@ -8,15 +8,15 @@ import { AnimatePresence, motion } from "framer-motion";
 
 const navLinks = [     
     { label: "Home", href: "#" },     
-    { label: "Features", href: "#features" },     
-    { label: "Integrations", href: "#integrations" },     
+    // { label: "Features", href: "#features" },     
+    { label: "Team", href: "#integrations" },     
     { label: "FAQs", href: "#faqs" }, 
 ];  
 
 export default function Navbar() {     
     const [isOpen, setIsOpen] = useState(false);  // Explicitly set to false
     return (         
-        <section className="py-4 lg:py-8 fixed  w-full top-0 z-50">             
+        <section className="py-4 lg:py-8 absolute  w-full top-0 z-50">             
             <div className="container max-w-5xl">                 
                 <div className="border border-white/15 rounded-[27px] md:rounded-full bg-neutral-950/70 backdrop-blur">                     
                     <div className="grid grid-cols-2 lg:grid-cols-3 p-2 items-center px-4 md:pr-2 ">                     
@@ -74,8 +74,8 @@ export default function Navbar() {
                                 )}
                             ></line>                         
                         </svg>                         
-                        <Button variant="secondary" className="hidden md:inline-flex items-center">Log In</Button>                         
-                        <Button variant="primary" className="hidden md:inline-flex items-center">Sign up</Button>                                              
+                        {/* <Button variant="secondary" className="hidden md:inline-flex items-center">Log In</Button>                          */}
+                        <Button variant="primary" className="hidden md:inline-flex items-center">Get Started</Button>                                              
                     </div>                     
                     </div>                     
                     <AnimatePresence>                     
@@ -96,8 +96,8 @@ export default function Navbar() {
                                         {link.label}
                                     </a>                                 
                                 ))}                                 
-                                <Button variant="secondary" className="mt-2">Log In</Button>                                 
-                                <Button variant="primary" className="mt-2">Sign up</Button>                             
+                                {/* <Button variant="secondary" className="mt-2">Log In</Button>                                  */}
+                                <Button variant="primary" className="mt-2">Get Started</Button>                             
                             </div>                         
                         </motion.div>                     
                     )}                     
