@@ -1,8 +1,8 @@
 "use client";
 
 import Button from "@/components/Button";
-import designExample1Image from "@/assets/images/iPhone 13 Pro Graphite Mockup label@2x.png";
-import designExample2Image from "@/assets/images/Instagram story - 24.png";
+import designExample1Image from "@/assets/images/main.png";
+import designExample2Image from "@/assets/images/main (1).png";
 import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from "framer-motion";
@@ -66,8 +66,8 @@ export default function Hero() {
                     className="absolute -left-20 top-20 hidden lg:block"
                 >
                     <Image
-                        src={designExample2Image}
-                        className="w-72"
+                        src={designExample1Image}
+                        className="w-64"
                         alt="design example 1 image"
                         draggable="true"
                     />
@@ -87,7 +87,7 @@ export default function Hero() {
                 >
                     <Image
                         src={designExample2Image}
-                        className="w-72"
+                        className="w-64"
                         alt="design example 2 image"
                         draggable="true"
                     />
@@ -107,7 +107,7 @@ export default function Hero() {
                 <h1 className="text-6xl md:text-7xl font-medium text-center mt-12">
                     Apno Ka <span className="text-[#a3e635]">Online</span><br/>Store, Apno Ke liye
                 </h1>
-                <p className="text-center text-xl text-white/50 mt-8 max-w-2xl mx-auto">
+                <p className="text-center text-xl text-white/50 mt-12 max-w-2xl mx-auto">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                     Similique laudantium consectetur eum est quis, pariatur
                     optio iure magni! nigga{" "}
