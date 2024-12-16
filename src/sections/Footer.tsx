@@ -18,8 +18,8 @@ export default function Footer() {
                     </div>
                     <div>
                         <nav className="flex gap-6">
-                            {footerLinks.map(links => (
-                                <a href={links.href} className="text-white/50 text-sm">{links.label}</a>
+                            {footerLinks.map((links, index) => (
+                                <a key={index} href={links.href} className="text-white/50 text-sm">{links.label}</a>
                             ))}
                         </nav>
                     </div>
