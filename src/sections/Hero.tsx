@@ -1,13 +1,11 @@
 "use client";
 
-import Button from "@/components/Button";
 import designExample1Image from "@/assets/images/main.png";
 import designExample2Image from "@/assets/images/main (1).png";
 import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from "framer-motion";
 import { useEffect } from "react";
-import cursorYouImage from "@/assets/images/cursor-you.svg";
 import CreativeBtn2 from "@/components/Downloadbtn";
 
 export default function Hero() {
