@@ -1,7 +1,7 @@
 "use client";
 
-import designExample1Image from "@/assets/images/main.png";
-import designExample2Image from "@/assets/images/main (1).png";
+import designExample1Image from "@/assets/images/1.png";
+import designExample2Image from "@/assets/images/2.png";
 import Image from "next/image";
 import Pointer from "@/components/pointer";
 import { motion, useAnimate } from "framer-motion";
@@ -73,8 +73,8 @@ export default function Hero() {
                     className="absolute -left-20 top-20 hidden lg:block"
                 >
                     <Image
-                        src={designExample1Image}
-                        className="w-64"
+                        src={designExample2Image}
+                        className="w-80"
                         alt="design example 1 image"
                         draggable="true"
                     />
@@ -93,7 +93,7 @@ export default function Hero() {
                     className="absolute -right-24 -top-4 hidden lg:block"
                 >
                     <Image
-                        src={designExample2Image}
+                        src={designExample1Image}
                         className="w-64"
                         alt="design example 2 image"
                         draggable="true"
