@@ -7,13 +7,13 @@ import Image from "next/image";
 import Avatar from "@/components/Avatar";
 
 const features = [
-    "Asset Library",
-    "Code Preview",
-    "Flow Mode",
-    "Smart Sync",
-    "Auto Layout",
-    "Fast Search",
-    "Smart Guides",
+    "Analytics",
+    "Inventory",
+    "Earnings",
+    "Community",
+    "Promotions",
+    "Middleman",
+    "Marketplace",
 ];
 
 export default function Features() {
@@ -24,7 +24,7 @@ export default function Features() {
             </div>
             <h2 className="text-6xl font-medium text-center mt-6 max-w-2xl mx-auto">We are not just another<span className="text-lime-400"> Ecommerce Store</span></h2>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-4 lg:grid-cols-3 gap-8">
-                <FeatureCard title="Real-Time collaboration" description="Work together seamlessly with conflict-free team editing" className="md:col-span-2 lg:col-span-1">
+                <FeatureCard title="Hyperlocal Marketplace" description="Find stores and products near you." className="md:col-span-2 lg:col-span-1">
                     <div className="aspect-video flex items-center justify-center">
                         <Avatar className="z-40">
                             <Image src={avatar1} alt="avatar1" className="rounded-full"/>
@@ -45,14 +45,16 @@ export default function Features() {
                         </Avatar>
                     </div>
                 </FeatureCard>
-                <FeatureCard title="Interactive Prototyping" description="Engage your clients with prototypes that react to user actions" className="md:col-span-2 lg:col-span-1">
+                <FeatureCard title="Seamless Shopping" description=" Browse and purchase items
+from any store." className="md:col-span-2 lg:col-span-1">
                     <div className="aspect-video flex items-center justify-center">
                         <p className="text-4xl font-extrabold text-white/20 text-center">
                             We&apos;ve achieved {" "} <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">incredible</span> {" "} growth this year  
                         </p>
                     </div>
                 </FeatureCard>
-                <FeatureCard title="Keyboard Quick Actions" description="Powerfull commands to help you create designs more quickly" className="md:col-span-2 md:col-start-2 lg:col-span-1">
+                <FeatureCard title="Delivery Service" description="Convenient delivery options for
+your purchases within 20 minutes." className="md:col-span-2 md:col-start-2 lg:col-span-1">
                     <div className="aspect-video flex items-center justify-center gap-3">
                         <div className="bg-gray-300 text-black border rounded-lg border-transparent px-4 py-1">shift</div>
                         <div className="bg-gray-300 text-black border rounded-lg border-transparent px-2 py-1">alt</div>

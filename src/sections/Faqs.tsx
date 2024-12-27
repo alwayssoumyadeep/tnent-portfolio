@@ -7,24 +7,32 @@ import { motion } from "framer-motion";
 
 const faqs = [
     {
-        question: "How is Layers different from other design tools?",
-        answer: "Unlike traditional design tools, Layers prioritizes speed and simplicity without sacrificing power. Our intelligent interface adapts to your workflow, reducing clicks and keeping you in your creative flow.",
+        question: "How easy is it to create an online store on this platform?",
+        answer: "Creating an online store on our platform is incredibly simple and requires no coding or website-building skills. With just a few steps, you can set up your store, list products, and start selling online in minutes.",
     },
     {
-        question: "Is there a learning curve?",
-        answer: "Layers is designed to feel intuitive from day one. Most designers are productive within hours, not weeks. We also provide interactive tutorials and comprehensive documentation to help you get started.",
+        question: "Do customers and store owners need separate apps?",
+        answer: "No, our platform is designed as a single app for everyone. Both customers and store owners use the same app, making the process seamless and user-friendly.",
     },
     {
-        question: "How do you handle version control?",
-        answer: "Every change in Layers is automatically saved and versioned. You can review history, restore previous versions, and create named versions for important milestones.",
+        question: "How does this platform help save costs compared to traditional methods?",
+        answer: "Starting a digital store on our platform eliminates the need for expensive website or app development, hiring digital marketing agencies, and renting offline spaces. We provide an all-in-one solution at an affordable cost.",
     },
     {
-        question: "Can I work offline?",
-        answer: "Yes! Layers includes a robust offline mode. Changes sync automatically when you're back online, so you can keep working anywhere.",
+        question: "Can I manage everything related to my store through this platform?",
+        answer: "Absolutely! Our platform is a one-stop solution for managing inventory, listing items, handling orders, and coordinating deliveries, making store management hassle-free.",
     },
     {
-        question: "How does Layers handle collaboration?",
-        answer: "Layers is built for collaboration. You can invite team members to your projects, share feedback, and work together in real-time.",
+        question: "Do I need technical skills to start an online store here?",
+        answer: "Not at all! The platform is designed for everyone, even those with zero technical skills. You don't need to know coding or web development—just follow simple steps, and your store will be live.",
+    },
+    {
+        question: "Can I sell any type of product on this platform?",
+        answer: "Yes, you can sell almost anything—from fashion and electronics to groceries and more. The platform is versatile and supports a wide variety of products.",
+    },
+    {
+        question: "Is this platform affordable for small businesses?",
+        answer: "Absolutely! This platform is designed to reduce costs for small businesses by eliminating the need for expensive website development, app creation, and digital marketing fees.",
     },
 ];
 

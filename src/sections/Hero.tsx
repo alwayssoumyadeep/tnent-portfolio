@@ -70,11 +70,11 @@ export default function Hero() {
                     ref={leftDesignScope}
                     initial={{ opacity: 0, y: 100, x: -100 }}
                     drag
-                    className="absolute -left-20 top-20 hidden lg:block"
+                    className="absolute -left-44 -top-18 hidden lg:block"
                 >
                     <Image
                         src={designExample2Image}
-                        className="w-80"
+                        className="w-[450px] rotate-[14deg]"
                         alt="design example 1 image"
                         draggable="true"
                     />
@@ -115,9 +115,7 @@ export default function Hero() {
                     Apno Ka <span className="text-[#a3e635]">Online</span><br/>Store, Apno Ke liye
                 </h1>
                 <p className="text-center text-xl text-white/50 mt-12 max-w-2xl mx-auto">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Similique laudantium consectetur eum est quis, pariatur
-                    optio iure magni! nigga{" "}
+                Our E-store platform is a lifeline for small stores, making it simple to sell online and reach endless possibilities. It's your turn to own the <span className="text-white">spotlight</span>.{" "}
                 </p>
                  <div className="flex justify-center mt-7">
                      <CreativeBtn2/>

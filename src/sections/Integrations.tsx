@@ -6,16 +6,22 @@ import slackIcon from '@/assets/images/slack-logo.svg';
 import relumeIcon from '@/assets/images/relume-logo.svg';
 import framerIcon from '@/assets/images/framer-logo.svg';
 import githubIcon from '@/assets/images/github-logo.svg';
+import restaurantimg from '@/assets/images/Frame 624962.png'
+import Cafeimg from '@/assets/images/Frame 624963.png'
+import Clothingimg from '@/assets/images/Frame 624967.png'
+import Bakeryimg from '@/assets/images/Frame 624970.png'
+import Groceryimg from '@/assets/images/Frame 624969.png'
+import Stationaryimg from '@/assets/images/Frame 624971.png'
 // import Image from "next/image";
 import IntegrationColumn from "@/components/Integrationcloumns";
 
 const integrations = [
-    { name: "Figma", icon: figmaIcon, description: "Figma is a collaborative interface design tool." },
-    { name: "Notion", icon: notionIcon, description: "Notion is an all-in-one workspace for notes and docs." },
-    { name: "Slack", icon: slackIcon, description: "Slack is a powerful team communication platform." },
-    { name: "Relume", icon: relumeIcon, description: "Relume is a no-code website builder and design system." },
-    { name: "Framer", icon: framerIcon, description: "Framer is a professional website prototyping tool." },
-    { name: "GitHub", icon: githubIcon, description: "GitHub is the leading platform for code collaboration." },
+    { name: "Restaurants", icon: restaurantimg, description: "Discover flavors, crafted just for you." },
+    { name: "Cafe", icon: Cafeimg, description: "Your perfect brew, anytime, anywhere." },
+    { name: "Clothing", icon: Clothingimg, description: "Trendy styles, made easy with Tnent." },
+    { name: "Bakery", icon: Bakeryimg, description: "Fresh treats, just a click away." },
+    { name: "Grocery", icon: Groceryimg, description: "Everyday needs, delivered by Tnent." },
+    { name: "Stationary", icon: Stationaryimg, description: "Complete your look, the Tnent way." },
 ];
 
 export type IntegrationsType = typeof integrations;
@@ -25,9 +31,9 @@ export default function Integrations() {
         <div className="container">
             <div className="grid lg:grid-cols-2 items-center lg:gap-16">
                 <div>
-                    <Tag>Integrations</Tag>
-                    <h2 className="text-6xl font-medium mt-6">Play well with {" "} <span className="text-lime-400">others</span></h2>
-                    <p className="text-white/50 mt-4 text-lg">Layers seamless connects with your favourite tools, making it easy to plug into any workflow and collaborate accross platform.</p>
+                    <Tag>Categories</Tag>
+                    <h2 className="text-6xl font-medium mt-6">Success starts{" "} <span className="text-lime-400"> here.</span></h2>
+                    <p className="text-white/50 mt-4 text-lg">Get the platform that's built for your growth. Whether it's tracking performance, generating promotions, or building your community, everything you need to succeed is in one place.</p>
                 </div>
                 <div>
                     <div className="h-[400px] lg:h-[800px] mt-8 lg:mt-0 overflow-hidden grid md:grid-cols-2 gap-4 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)]">

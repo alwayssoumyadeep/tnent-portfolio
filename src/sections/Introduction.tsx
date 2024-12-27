@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { twMerge } from "tailwind-merge";
 
 export default function Introduction() {
-    const text = `You're racing to create exceptional work, but traditional design tools slow you down with unnecessary complexity and steep learning curves.`;
+    const text = `You're reaching for a better way to shop, but traditional tools hold you back.`;
     const words = text.split(" ");
     const scrollTarget = useRef<HTMLDivElement>(null);
 
@@ -34,7 +34,7 @@ export default function Introduction() {
                         <Tag>Introducing Tnent Store</Tag>
                     </div>
                     <div className="text-4xl md:text-6xl lg:text-7xl text-center font-medium mt-10">
-                        <span>Your creative process deserves better.</span>{" "}
+                        <span>Your ambitions deserve better.</span>{" "}
                         <span className="text-white/15">
                             {words.map((word, index) => (
                                 <span

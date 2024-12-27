@@ -1,5 +1,5 @@
 // import { a, section } from "framer-motion/client";
-import logoImage from '@/assets/images/logo.svg'
+import logoImage from '@/assets/images/Logo for website.png'; 
 import Image from "next/image";
 
 const footerLinks = [
@@ -14,7 +14,7 @@ export default function Footer() {
             <div className="container">
                 <div className="flex flex-col items-center gap-6 ">
                     <div>
-                        <Image src={logoImage} alt="Layers Logo"/>
+                        <Image src={logoImage} className='lg:w-[14vw] sm:w-[44vw]' alt="Layers Logo"/>
                     </div>
                     <div>
                         <nav className="flex gap-6">
